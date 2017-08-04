@@ -1,0 +1,6 @@
+framework module EmbededTableViewProxy {
+  umbrella header "EmbededTableViewProxy-umbrella.h"
+
+  export *
+  module * { export * }
+}
