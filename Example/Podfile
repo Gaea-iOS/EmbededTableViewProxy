@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EmbededTableViewProxy_Example' do
+  pod 'EmbededTableViewProxy', :path => '../'
+
+  target 'EmbededTableViewProxy_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
